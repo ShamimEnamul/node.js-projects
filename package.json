@@ -1,0 +1,21 @@
+{
+  "name": "node.js-projects",
+  "version": "1.0.0",
+  "description": "\"project with Node.js\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShamimEnamul/node.js-projects.git"
+  },
+  "author": "\"Shamim Enamul\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShamimEnamul/node.js-projects/issues"
+  },
+  "homepage": "https://github.com/ShamimEnamul/node.js-projects#readme"
+}
