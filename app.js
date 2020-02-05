@@ -118,13 +118,33 @@
 /////////////////////////
 
 
-const http = require('http');
-const app = require('express');
+/* 
+//needed for vanila node.js
+const http = require('http'); */
+const express = require('express');
 
-const routes = require('./routes');// self created modulse
+/* const routes = require('./routes');// self created modulse
+    was implented before express!
+*/
 
-console.log(routes.someText);
 
-const server = http.createServer(routes.handler);
 
-server.listen(3000);
+const app = express();
+
+app.use((req, res, next)=>{
+    console.log("I am from first app.use()");
+    res.send('<h1>Hello from Express</h1>');
+});
+
+
+app.use((req, res, next)=>{
+    console.log("I am from Second app.use()");
+});
+
+app.listen(3000);
+
+/* 
+//creat server with vanila node.js
+const server = http.createServer(handler);
+
+server.listen(3000); */
