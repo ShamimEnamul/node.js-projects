@@ -1,0 +1,28 @@
+{
+  "name": "node.js-projects",
+  "version": "1.0.0",
+  "description": "i am trying to learn node.js",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShamimEnamul/node.js-projects.git"
+  },
+  "author": "shamim enamul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShamimEnamul/node.js-projects/issues"
+  },
+  "homepage": "https://github.com/ShamimEnamul/node.js-projects#readme"
+}
